@@ -27,7 +27,7 @@ powershell_command.txt - once you have it running, use this command to convert t
   - it will load a blank page, copy the URL of the blank page back into the command line and Enter.
   - each new run will replace the existing sheet from that period, so you can run it as many times as you like to check your hours for that period.
 - it will save the exported timesheet in the folder at ./exported_formatted
-- open the file to quickly check the output and save.
+- open the timesheet file to quickly check the output and save.
 - import timesheet into the Infor Expense Manager.
 - Validate one last time and submit
 
