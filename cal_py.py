@@ -47,9 +47,9 @@ def week_select():
 			]
 	answers = inquirer.prompt(choose_week)
 	"""
-	#answers = {"week":"This week"}
+	answers = {"week":"This week"}
 	#answers = {"week":"Last week"}	
-	answers = {"week":"ADHOC"}
+	#answers = {"week":"ADHOC"}
 	if answers['week'] == "Last week":
 		end = yesterday + relativedelta(weekday=SU(-1))
 		start = end + relativedelta(weekday=MO(-1))
