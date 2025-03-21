@@ -7,7 +7,7 @@ from dateutil.relativedelta import relativedelta, MO, FR, SU
 
 #https://pypi.org/project/O365/#calendar
 
-CLIENT_ID = 'CLIENT_ID'
+CLIENT_ID = '73fee778-cbb5-4c82-81cd-13503338d848'
 SECRET_ID = 'SECRET_ID'
 credentials = (CLIENT_ID, SECRET_ID)
 
