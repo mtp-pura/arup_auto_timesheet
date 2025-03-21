@@ -1,0 +1,1 @@
+pyinstaller -F --add-data "jobs_py.xlsx;." --add-data "Import_TS_Calendar_Hourly.xlsx;." cal_py.py
