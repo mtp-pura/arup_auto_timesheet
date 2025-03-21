@@ -6,6 +6,7 @@ Import_TS_Calendar_Hourly.xlsx - this is the default timesheet for importing. th
 
 
 cal_py.py - the is the main application. sorry for not having much documentation... [Azure Portal]([url](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/~/Overview/appId/73fee778-cbb5-4c82-81cd-13503338d848/isMSAApp~/false))
+
   The user must acquire their own SECRET_ID and add it here. Do not share this ID with others.
   ![image](https://github.com/user-attachments/assets/6067f63d-7142-4622-9680-75ce05667483)
 
