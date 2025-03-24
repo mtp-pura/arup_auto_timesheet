@@ -21,14 +21,14 @@ powershell_command.txt - once you have it running, use this command to convert t
 
 
 # Usage:
-- use you outlook calendar to build out your week. add appointments as you do the and/or plan your week ahead.
-- if using the python script - adjust the "answers" (line 50-52) to select the week you want to ingest.
+- use you outlook calendar to build out your week. add appointments as you do them and/or plan your week ahead.
+- if using cal_py.py from the command line - adjust the "answers" (line 50-52) to select the week you want to ingest.
 - run the script and categorise any uncategorised appointments.
   - it may require you to AUTH with your MS Authenticator, if you are not logged into your browser
   - it will load a blank page, copy the URL of the blank page back into the command line and Enter.
   - each new run will replace the existing sheet from that period, so you can run it as many times as you like to check your hours for that period.
 - it will save the exported timesheet in the folder at ./exported_formatted
-- open the timesheet file to quickly check the output and save.
+- open the timesheet file to quickly check the output and save. (you must do this otherwise the timesheet system will reject it)
 - import timesheet into the Infor Expense Manager.
 - Validate one last time and submit
 
