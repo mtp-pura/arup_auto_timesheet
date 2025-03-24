@@ -1,6 +1,6 @@
 # arup_auto_timesheet
 
-Converts your outlook calendar into a timesheet using CODES that you define and use in the appointment title. For example, if you include 'PERSLEAVE' in the title, it will suck that in and classify it as 'Personal Leave' in the final timesheet. 'SKIP' on the otherhand will ignore that appointment and not include it in your timesheet. The codes MUST be defined by each user.
+Converts your outlook calendar into a timesheet using CODES that you define (jobs..xlsx) and use in the appointment title. For example, if you include 'PERSLEAVE' in the title, it will suck that in and classify it as 'Personal Leave' in the final timesheet. 'SKIP' on the otherhand will ignore that appointment and not include it in your timesheet. The codes MUST be defined by each user.
 
 Import_TS_Calendar_Hourly.xlsx - this is the default timesheet for importing. this was pulled from the timesheet systems website
 
