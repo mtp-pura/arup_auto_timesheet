@@ -5,9 +5,9 @@ Converts your outlook calendar into a timesheet using CODES that you define (job
 Import_TS_Calendar_Hourly.xlsx - this is the default timesheet for importing. this was pulled from the timesheet systems website
 
 
-cal_py.py - the is the main application. sorry for not having much documentation... [Azure Portal Link](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/~/Overview/appId/73fee778-cbb5-4c82-81cd-13503338d848/isMSAApp~/false)
+cal_py.py - the is the main application. sorry for not having much documentation... 
 
-  The user must acquire their own SECRET_ID (see Client Credentials) from below and add it into the cal_py script. Do not share this ID with others.
+  The user must acquire their own SECRET_ID (see Client Credentials) from below [Azure Portal Link](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/~/Overview/appId/73fee778-cbb5-4c82-81cd-13503338d848/isMSAApp~/false) and add it into the cal_py script. Do not share this ID with others.
   ![image](https://github.com/user-attachments/assets/6067f63d-7142-4622-9680-75ce05667483)
 
   
