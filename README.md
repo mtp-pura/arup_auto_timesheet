@@ -7,8 +7,8 @@ Import_TS_Calendar_Hourly.xlsx - this is the default timesheet for importing. th
 
 cal_py.py - the is the main application. sorry for not having much documentation... 
 
-  The user must acquire their own SECRET_ID (see Client Credentials) from below [Azure Portal Link](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/~/Overview/appId/73fee778-cbb5-4c82-81cd-13503338d848/isMSAApp~/false) and add it into the cal_py script. Do not share this ID with others.
-  ![image](https://github.com/user-attachments/assets/6067f63d-7142-4622-9680-75ce05667483)
+  The user must acquire their own SECRET_ID (see Client Credentials) from below [Azure Portal Link](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/~/Overview/appId/73fee778-cbb5-4c82-81cd-13503338d848/isMSAApp~/false) and add it into the cal_py script.  Also read here for [O365 Integration](https://github.com/O365/python-o365?tab=readme-ov-file#authentication). Do not share this ID with others.
+  ![image](https://github.com/user-attachments/assets/6067f63d-7142-4622-9680-75ce05667483).
 
   
 jobs_py.xlsx - this is where the CODES (case-sensitive) are defined. I left mine in as an example. but you must replace them with your own. dont use words, use unique letter combinations for each project.
