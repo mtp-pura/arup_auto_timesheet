@@ -33,6 +33,8 @@ pip install pandas datetime inquirer openpyxl zoneinfo re os sys O365 python-dat
 - import timesheet into the Infor Expense Manager.
 - Validate one last time and submit
 
+- when it cant find a 'CODE' for any appointment, it asks you where you want to file it. You can use the arrow keys and ENTER to select an existing code. or you can SKIP it, and not add it to your timesheet. you can also use SKIP as a code to exclude any appointments from the timesheet
+
 # Notes
 Week is Monday to Sunday. If you run it on Monday and want to do last week, you will need to change the python script. (Lines 50-52)
 ADHOC allows you to pick any week given a Monday start date (Line 63).
