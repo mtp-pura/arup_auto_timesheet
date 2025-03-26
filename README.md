@@ -19,7 +19,7 @@ Converts your outlook calendar into a timesheet using CODES that you define (job
 1.  **Install python.** Up to you how you want to do this- I was running Windows Subsystem for Linux (available in Software Store) on my Arup machine.
 2.  **Clone the repo.** Clone or download
     ```python
-    git clone [https://github.com/mtp-pura/arup_auto_timesheet.git](https://github.com/mtp-pura/arup_auto_timesheet.git)
+    git clone https://github.com/mtp-pura/arup_auto_timesheet.git
     ```
 3.  **Install dependencies:** Run the command to install required Python libraries (pandas, datetime, Inquirer, etc.). Note that there might be an error with `zoneinfo` but it might not matter.
     ```python
