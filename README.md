@@ -1,7 +1,7 @@
 # arup_auto_timesheet
 
 Converts your outlook calendar into a timesheet using CODES that you define (jobs..xlsx) and use in the appointment title. For example, if you include 'PERSLEAVE' in the title, it will suck that in and classify it as 'Personal Leave' in the final timesheet. 'SKIP' on the otherhand will ignore that appointment and not include it in your timesheet. The codes MUST be defined by each user.
-
+```
 .
 ├── Import_TS_Calendar_Hourly.xlsx  (Default timesheet for importing, pulled from the timesheet system website)
 ├── cal_py.py                      (Main application script)
@@ -11,7 +11,7 @@ Converts your outlook calendar into a timesheet using CODES that you define (job
 │       └── [Image of Client Credentials] (https://github.com/user-attachments/assets/6067f63d-7142-4622-9680-75ce05667483)
 ├── jobs_py.xlsx                   (Defines CODES (case-sensitive) for projects. Replace example codes with your own unique letter combinations.)
 └── powershell_command.txt         (Command to convert the application into an executable, specific to your credentials)
-
+```
 # Steps
 **Install python.** Up to you how you want to do this- I was running Windows Subsystem for Linux (available in Software Store) on my Arup machine.
 **Clone the repo.** Clone or download
