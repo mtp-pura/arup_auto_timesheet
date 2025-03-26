@@ -155,7 +155,6 @@ def sort_timesheet(events, job_dict):
 		job_list.append(j)
 		totals_dict["jobs"][j]=0
 	job_list.append("SKIP")
-	job_list.append("NEW")
 
 	for event in events:	#pytz error 
 		#print(event.start, event.subject)
