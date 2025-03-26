@@ -18,8 +18,9 @@ o365_token.txt - need to acquire your o365 token for your personal calendar. thi
 
 
 powershell_command.txt - once you have it running, use this command to convert the files into an executable. it will only work with your credentials, so don't bother sharing.
-
-
+```python
+pip install pandas datetime inquirer openpyxl zoneinfo re os sys O365 python-dateutil
+```
 # Usage:
 - use you outlook calendar to build out your week. add appointments as you do them and/or plan your week ahead.
 - if using cal_py.py from the command line - adjust the "answers" (line 50-52) to select the week you want to ingest.
