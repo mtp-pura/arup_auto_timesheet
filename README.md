@@ -26,11 +26,11 @@ Converts your outlook calendar into a timesheet using CODES that you define (job
     pip install pandas datetime inquirer openpyxl zoneinfo re os sys O365 python-dateutil
     ```
 4.  **Open the main script.** `cal_py.py`
-5.  **Get the secret ID:** Go back to the GitHub and follow the portal link to the Azure app. [Azure Portal Link](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/~/Overview/appId/73fee778-cbb5-4c82-81cd-13503338d848/isMSAApp~/false)
-6.  **Add a client credential:** Navigate to "certificates and secrets" and create a "new client secret."
-7.  **Name the secret** and set an expiration (e.g., 24 months).
-8.  **Copy the "value"** of the newly created secret. This is the actual secret ID needed in the code.
-9.  **Add the copied "value" into the secret ID spot** in the main script. Save the script.
+5.  **Get the secret ID:** Follow the portal link to the Azure app. [Azure Portal Link](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/~/Overview/appId/73fee778-cbb5-4c82-81cd-13503338d848/isMSAApp~/false)
+    * **Add a client credential:** Navigate to "certificates and secrets" and create a "new client secret."
+    * **Name the secret** and set an expiration (e.g., 24 months).
+    * **Copy the "value"** of the newly created secret. This is the actual secret ID needed in the code.
+    * **Add the copied "value" into the secret ID spot** in the main script. Save the script.
 10. **Double-check the dates** in the script to ensure it's pointed at the desired week (current week, last week, or ad hoc dates). Modify the date settings in the script if needed, depending on which week you need to access.
     * Weeks run Monday to Sunday.
 11. **Edit the `jobs.py` file:**
