@@ -8,8 +8,6 @@ Converts your outlook calendar into a timesheet using CODES that you define (job
 ├── cal_py.py                      (Main application script)
 │   └── Documentation:
 │       ├── User must acquire their own SECRET_ID (see Client Credentials in Azure) and add it into this script.
-│       ├── Refer to [O365 Integration](https://github.com/O365/python-o365?tab=readme-ov-file#authentication) for authentication details and API.
-│       └── [Image of Client Credentials] ([https://github.com/user-attachments/assets/6067f63d-7142-4622-9680-75ce05667483](https://github.com/user-attachments/assets/6067f63d-7142-4622-9680-75ce05667483))
 ├── jobs_py.xlsx                   (Defines CODES (case-sensitive) for projects. Replace example codes with your own unique letter combinations.)
 └── powershell_command.txt         (Command to convert the application into an executable, specific to your credentials)
 ```
